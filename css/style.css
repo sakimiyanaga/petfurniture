@@ -35,6 +35,7 @@ footer {
 	padding-bottom: 10px;
 	font-weight: 100;
 	letter-spacing: 1px;
+	border-top: solid 1px white;
 }
 .clearfix {
 	background-color: #febda5;
