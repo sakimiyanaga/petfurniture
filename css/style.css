@@ -1,12 +1,15 @@
 .container-fluid {
-background-color: #db7e5c;
-padding-right: 15px;
-padding-left: 15px;
-margin-right: auto;
-margin-left: auto;
-border-bottom: white solid 1px;
+	background-color: #db7e5c;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: white solid 1px;
 }
 
+.below-navbar {
+	position: relative;
+}
 body {
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -56,4 +59,27 @@ a {
 }
 .col-sm-4 a:hover {
 	font-size: 36px;
+}
+
+.color-selection button {
+	display: inline-block;
+	margin: 0;
+	border: black 1px solid;
+	height: 20px;
+	width: 20px;
+}
+.color-red {
+	background-color: #d75050;
+}
+
+.color-grey {
+	background-color: #8a8f90;
+}
+
+.color-blue {
+	background-color: #2c8ba2;
+}
+
+.description {
+	text-align: left;
 }
