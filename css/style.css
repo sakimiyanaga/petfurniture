@@ -20,6 +20,7 @@ a {
 	color: white;
 	font-weight: 100;
 	text-decoration: none;
+	letter-spacing: 1px;
 }
 
 h1 {
@@ -27,6 +28,14 @@ h1 {
 	font-size: 42px;
 }
 
+footer {
+	background-color: #db7e5c;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
 .clearfix {
 	background-color: #febda5;
 }
@@ -40,18 +49,22 @@ h1 {
 	color: white;;
 	font-size: 36px;
 	font-weight: 500;
-	margin-top: 30%;
+	margin-top: 25%;
 	float: right;
 	max-width: 50%
 }
 
-.float-right a:hover {
+.float-right h1 {
+	margin-bottom: 30px;
+	font-size: 50px;
+}
+/*.float-right a:hover {
 	padding: 20px;
 	text-decoration: none;
 	color: white;
 	font-weight: 500;
 	border-bottom: white 1px solid;
-}
+}*/
 
 .col-sm-4 img {
 	max-width: 300px;
@@ -89,3 +102,60 @@ h1 {
 .description {
 	text-align: left;
 }
+
+.float-right button {
+  padding: 20px 40px;
+  font-weight: normal;
+  background: none;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.float-right button:after, 
+.float-right button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 1px solid white;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.float-right button:after {
+  -webkit-transform: translate(10px, 10px);
+          transform: translate(10px, 10px);
+}
+.float.right button:before {
+  -webkit-transform: translate(-10px, -10px);
+          transform: translate(-10px, -10px);
+}
+.float-right button:hover:after, 
+.float-right button:hover:before {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
