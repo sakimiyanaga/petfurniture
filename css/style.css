@@ -1,7 +1,12 @@
-.container > .navbar-header, 
-.container-fluid > .navbar-header, 
-.container > .navbar-collapse, 
-.container-fluid > .navbar-collapse {
-    border-bottom: black solid 1px;
-    margin-right: 0;
-    margin-left: 0;
+.container-fluid {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+border-bottom: white solid 1px;
+}
+
+a {
+	color: white;
+	font-weight: 100;
+}
