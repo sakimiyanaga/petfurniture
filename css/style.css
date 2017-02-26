@@ -1,4 +1,7 @@
-nav ul > li > a {
-	color: white;
-	font-weight: thin;
-}
+.container > .navbar-header, 
+.container-fluid > .navbar-header, 
+.container > .navbar-collapse, 
+.container-fluid > .navbar-collapse {
+    border-bottom: black solid 1px;
+    margin-right: 0;
+    margin-left: 0;
