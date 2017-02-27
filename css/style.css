@@ -7,9 +7,6 @@
 	border-bottom: white solid 1px;
 }
 
-.below-navbar {
-	position: relative;
-}
 body {
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -36,6 +33,23 @@ footer {
 	font-weight: 100;
 	letter-spacing: 1px;
 	border-top: solid 1px white;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid white;
+  border-radius: 0;
+}
+
+.icon-bar {
+	background-color: white;
 }
 .clearfix {
 	background-color: #febda5;
