@@ -169,17 +169,45 @@ footer {
           transform: translate(0);
 }
 
+#form {
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 10%;
+	height: 100%;
+}
 
+#signupBtn,
+#loginBtn {
+	width: 100%;
+	height: 40px;
+	background-color: #febda5;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	border: black 1px solid;
+	transition: 0.3s;
+	margin-bottom: 20px;
+}
 
+#signupBtn:hover,
+#loginBtn:hover {
+	box-shadow: 0 0 0 0;
+}
 
+#support {
+	padding: 50px;
+	background-color: #febda5;
+	color: white;
+	background-size: cover;
+	height: 100vh;
+}
 
-
-
-
-
-
-
-
+@media (max-width: 768px) {
+	#support{
+		height: 100%;
+	}
+}
+.glyphicon {
+	padding-right: 15px;
+}
 
 
 
