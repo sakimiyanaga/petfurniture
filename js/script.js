@@ -19,10 +19,10 @@ function updateNavgationView(){
 		$("#logoutNav").show();
 	} if (!token) {
 		$("#loginNav").show();
-		$("#logoutNav").show();
+		$("#logoutNav").hide();
 	} else {
 		$("#loginNav").show();
-		$("#logoutNav").hide();
+		$("#logoutNav").show();
 	}
 }
 
